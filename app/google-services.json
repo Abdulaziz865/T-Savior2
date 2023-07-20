@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "622172919460",
+    "project_id": "t-savior",
+    "storage_bucket": "t-savior.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:622172919460:android:8ecedfe382943c92c87831",
+        "android_client_info": {
+          "package_name": "vaoolo.savi.olorom"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "622172919460-9lioju414jfql7nb0bc6ogksevm45dau.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDG9Iz6cExhSvlT-8ml2QbV45qPp96h7AA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "622172919460-9lioju414jfql7nb0bc6ogksevm45dau.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

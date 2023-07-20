@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4F4F4"
+    tools:context=".white.ui.fragments.onboard.OnBoardPagingFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/image_background"
+            android:elevation="5dp" />
+
+        <LinearLayout
+            android:id="@+id/linear_margin"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:orientation="vertical"
+            android:visibility="gone"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            app:layout_constraintTop_toBottomOf="@id/linear_margin">
+
+            <TextView
+                android:id="@+id/name_treacker"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/bungee"
+                android:gravity="center"
+                android:text="T-Savior"
+                android:textColor="#0B1732"
+                android:textSize="40sp" />
+
+            <TextView
+                android:id="@+id/txt_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginHorizontal="20dp"
+                android:fontFamily="@font/rubik"
+                android:gravity="center"
+                android:text="T-Savior – ваш финансовый спасатель. Обеспечьте финансовую безопасность."
+                android:textColor="#0B1732"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:id="@+id/image_onboard"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/onboard_image_1" />
+
+            <Button
+                android:id="@+id/btn_start"
+                android:layout_width="wrap_content"
+                android:layout_height="64dp"
+                android:layout_gravity="bottom|center"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="15dp"
+                android:backgroundTint="@color/color_app"
+                android:drawableEnd="@drawable/image_for_button"
+                android:fontFamily="@font/rubik_bold"
+                android:paddingStart="30dp"
+                android:paddingEnd="30dp"
+                android:textColor="@color/white"
+                android:text="@string/start"
+                android:textAllCaps="false"
+                app:cornerRadius="10dp" />
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
